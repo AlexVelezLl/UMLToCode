@@ -1,5 +1,7 @@
 package Modelos;
 
+import java.util.ArrayList;
+
 public class HistoriaClinica {
 
 	protected Paciente historiaClinica;
