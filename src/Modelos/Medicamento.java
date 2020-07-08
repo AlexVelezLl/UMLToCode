@@ -2,7 +2,6 @@ package Modelos;
 
 public class Medicamento {
 
-	Receta medicamentos;
 	protected String medicina;
 	protected String dosis;
 	protected String observaciones;

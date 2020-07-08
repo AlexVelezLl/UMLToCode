@@ -1,10 +1,7 @@
 package Modelos;
 
-import java.util.ArrayList;
-
 public class HistoriaClinica {
 
-	protected Paciente historiaClinica;
 	protected int nro;
 	protected ArrayList enfermedades;
 	protected ArrayList alergias;

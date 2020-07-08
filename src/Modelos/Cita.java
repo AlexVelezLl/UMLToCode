@@ -2,11 +2,10 @@ package Modelos;
 
 import java.time.LocalDateTime;
 
-
 public class Cita {
 
-	protected Doctor citasPendientes;
-	protected Paciente cita;
+	protected Doctor doctor;
+	protected Paciente paciente;
 	protected LocalDateTime fecha;
 	protected boolean pagada;
 	protected String registradoPor;
