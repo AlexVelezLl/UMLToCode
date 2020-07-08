@@ -1,11 +1,13 @@
 package Modelos;
 
+import java.time.LocalDate;
+
 public class Booking {
 
 	Passenger passengers;
 	Flight flights;
 	private int kind;
-	private Date date;
+	private LocalDate date;
 
 	public void reserve() {
 		// TODO - implement Booking.reserve

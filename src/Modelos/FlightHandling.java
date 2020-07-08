@@ -1,11 +1,14 @@
 package Modelos;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+
 public class FlightHandling {
 
 	private int boardingGate;
 	private int delay;
-	private Date date;
-	private Time time;
+	private LocalDate date;
+	private LocalTime time;
 
 	public void startCheckIn() {
 		// TODO - implement FlightHandling.startCheckIn

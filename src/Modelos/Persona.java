@@ -1,5 +1,7 @@
 package Modelos;
 
+import java.time.LocalDate;
+
 public class Persona {
 
 	protected String usuario;
@@ -7,8 +9,8 @@ public class Persona {
 	protected String nombre;
 	protected String apellido;
 	protected String cedula;
-	protected String dirección;
-	protected Date fechaNac;
+	protected String direccion;
+	protected LocalDate fechaNac;
 	protected Administrador registradoPor;
 
 	public boolean logIn() {

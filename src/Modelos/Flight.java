@@ -1,5 +1,6 @@
 package Modelos;
 
+import java.time.LocalTime;
 import java.util.*;
 
 public class Flight {
@@ -8,7 +9,7 @@ public class Flight {
 	Airport from;
 	Airport to;
 	FlightHandling fh;
-	private Time time;
+	private LocalTime time;
 	private int miles;
 
 }
